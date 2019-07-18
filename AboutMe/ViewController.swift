@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hobbiesLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nameLabel.text = "Joseph McLaughlin"
+        hobbiesLabel.text = "Biking, coding, weight lifting, hiking"
     }
 
 
